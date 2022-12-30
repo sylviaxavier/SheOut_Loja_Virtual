@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>SHEOUT - Loja Virtual</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">SHEOUT</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="#somos">Quem somos</a>
+                        <a class="nav-link" href="#time">Nosso time</a>
+                        <a class="nav-link" href="#produtos">Nossos produtos</a>
+                        <a class="nav-link" href="#"><i class="bi bi-cart3"></i></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!--Carousel-->
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/images/carrossel/lojaFisica.jpg" class="d-block w-100" alt="Loja física">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Em breve, loja física!</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/carrossel/mulherCompras.jpg" class="d-block w-100" alt="Mulher com compras">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Venha fazer suas compras conosco!</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/carrossel/todosCartoes.jpg" class="d-block w-100" alt="Computador e cartão de crédito">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Aceitamos todos os cartões!</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/carrossel/mulherSatisfeita.jpg" class="d-block w-100" alt="mulher em frente ao computador">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Suas melhores roupas aqui!</h5>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+    <main>
+        <section class="container-fluid">
+            <h2 id="somos" class="text-center">Quem somos?</h2>
+            <div>
+                <img src="/images/time/funcionarios.jpg" class="about float-end" alt="...">
+            </div>
+            <div class="text-center mt-5 ms-5 p-5">
+                <p class="fs-5">Somos uma mini empresa que preza pela qualidade do produto e do atendimento. Criada em 2022, pretendemos crescer cada dia mais, alcançando nossos objetivos e metas. Agradeço desde já por visitar nossa página, é uma honra lhe atender!</p>
+            </div>
+        </section>
+        <section id="nossoTime" class="container-fluid">
+            <h2 id="time" class="text-center">Nosso incrível time</h2>
+            <div class="row p-5 mt-5">
+                <div class="col-lg-4">
+                  <img src="/images/time/professional-smiling-woman.jpg" class="bd-placeholder-img rounded-circle" width="150" height="140"></img>
+                  <h2 class="fw-normal">Tatiana Ferreira</h2>
+                  <h5 class="text-muted">Leader Designer</h5>
+                </div>
+                <div class="col-lg-4">
+                  <img src="/images/time/business-woman-in-office-smiles.jpg" class="bd-placeholder-img rounded-circle" width="150" height="140"></img>
+                  <h2 class="fw-normal">Michele Costa</h2>
+                  <h5 class="text-muted">Lead Developer</h5>
+                </div>
+                <div class="col-lg-4">
+                    <img src="/images/time/professional-woman.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140"></img>
+                  <h2 class="fw-normal">Beatriz Souza</h2>
+                  <h5 class="text-muted">Lead Marketer</h5>
+                </div>
+              </div>
+        </section>
+        <section class="container-fluid">
+            <h2 id="produtos" class="text-center mb-5">Nossos produtos</h2>
+            <div class="card-group mb-5 mt-2">
+                <div class="card">
+                  <img src="/images/produtos/blusaBrilhante.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Blusa Cintilante</h5>
+                    <p class="card-text"> Blusa de manga curta, perfeita para sua ocasião.</p>
+                    <p class="card-text text-center">R$90,00</p>
+                  </div>
+                  <div class="card-footer">
+                    <a class="btn btn-dark">Adicionar ao carrinho</a>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="/images/produtos/moletomTricolor.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Moletom Tricolor</h5>
+                    <p class="card-text">Moletom de três cores, super quentinho e aconchegante.</p>
+                    <p class="card-text text-center">R$110,00</p>
+                  </div>
+                  <div class="card-footer">
+                    <a class="btn btn-dark">Adicionar ao carrinho</a>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="./images/produtos/moletom.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Moletom</h5>
+                    <p class="card-text">Moletom amarelo de crochê, feito manualmente.</p>
+                    <p class="card-text text-center">R$200,00</p>
+                  </div>
+                  <div class="card-footer">
+                    <a class="btn btn-dark">Adicionar ao carrinho</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card-group mb-5 mt-2">
+                <div class="card">
+                  <img src="/images/produtos/fashion-2766725_1920.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Camisa Social</h5>
+                    <p class="card-text">Camisa social cinza, perfeita para ocasiões de trabalho.</p>
+                    <p class="card-text text-center">R$100,00</p>
+                  </div>
+                  <div class="card-footer">
+                    <a class="btn btn-dark">Adicionar ao carrinho</a>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="/images/produtos/portrait-4820902_1920.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Vestido Longo</h5>
+                    <p class="card-text">Vestido amarelo longo com babados e fenda frontal, perfeito para seu evento.</p>
+                    <p class="card-text text-center">R$220,00</p>
+                  </div>
+                  <div class="card-footer">
+                    <a class="btn btn-dark">Adicionar ao carrinho</a>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="/images/produtos/a-model-in-khaki-trousers-and-a-striped-t-shirt.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Camisa Listrada</h5>
+                    <p class="card-text">Camisa simples, baby doll, branca com listras pretas.</p>
+                    <p class="card-text text-center">R$50,00</p>
+                  </div>
+                  <div class="card-footer">
+                    <a class="btn btn-dark">Adicionar ao carrinho</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card-group mb-5 mt-2">
+                <div class="card">
+                  <img src="/images/produtos/waistup-shot-of-assertive-goodlooking-confident-teenage-girl-having-everything-under-control-winking.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Jardineira</h5>
+                    <p class="card-text">Jardineira jeans cor de vinho, perfeita para um encontro.</p>
+                    <p class="card-text text-center">R$150,00</p>
+                  </div>
+                  <div class="card-footer">
+                    <a class="btn btn-dark">Adicionar ao carrinho</a>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="/images/produtos/sassy-confident-cheeky-goodlooking-redhead-curlyhaired-woman-hold-hands-pockets-smiling-daring-asser.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Camisa Listrada</h5>
+                    <p class="card-text">Camisa simples, baby doll, branca com listras vermelhas.</p>
+                    <p class="card-text text-center">R$50,00</p>
+                  </div>
+                  <div class="card-footer">
+                    <a class="btn btn-dark">Adicionar ao carrinho</a>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="/images/produtos/woman-in-summer-fashion.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Blusa Cigana</h5>
+                    <p class="card-text">Blusa de ombro-a-ombro cinza.</p>
+                    <p class="card-text text-center">R$100,00</p>
+                  </div>
+                  <div class="card-footer">
+                    <a class="btn btn-dark">Adicionar ao carrinho</a>
+                  </div>
+                </div>
+              </div>
+            
+        </section>
+    </main>
+    <div id="footer" class="container-fluid">
+        <footer>
+            <div class="border-top pt-4 mt-5">
+                <p class="text-muted">Rua Amanhecer, 22 | Recife | PE | 01001-001</p>
+                <p class="text-muted">Telefone para contato: +55 11 3232-3232</p>
+                <p class="text-muted">atendimento@sheout.com.br</p>
+            </div>
+            <ul id="icons" class="list-unstyled d-flex justify-content-center border-bottom">
+                <li class="m-5"><a class="link-dark"><i class="bi bi-instagram"></i></a></li>
+                <li class="m-5"><a class="link-dark"><i class="bi bi-facebook"></i></a></li>
+                <li class="m-5"><a class="link-dark"><i class="bi bi-twitter"></i></a></li>
+            </ul>
+
+          <p id="copyright" class="text-center text-muted">&copy; 2022 SHEOUT, Inc</p>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
