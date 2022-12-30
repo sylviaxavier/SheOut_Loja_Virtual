@@ -12,7 +12,7 @@
 <br/>
 
 > :memo: **Note:**
-> >Desenvolver a interface de umaloja virtual com HTML, CSS e Bootstrap
+> >Desenvolver a interface de uma loja virtual com HTML, CSS e Bootstrap.
 <br/>
 
 ## Dúvidas:
